@@ -28,7 +28,7 @@ public class Banco {
     }
 
     public static void main(String [] args) {
-        String cpf = "149.034.814-09";
+        String cpf = "00000000000";
         String nome = "Wesley Cauan";
         Conta novaConta = new ContaCorrente();
         Cliente wesley = new Cliente(cpf, nome, novaConta.getNumero());
