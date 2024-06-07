@@ -39,5 +39,6 @@ public class Banco {
         novaConta.depositar(150);
 
         bancoDeDados.exibirClientes();
+        bancoDeDados.exibirClientes();
     }
 }
